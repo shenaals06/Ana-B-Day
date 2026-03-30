@@ -25,7 +25,7 @@ def check_answer(answer_key, correct_answers, next_step):
 
 # ---------------- STEP 0 (INTRO) ----------------
 if st.session_state.step == 0:
-    st.image("Intro.png")
+    st.image("birthday journey/Intro.png")
     st.write("An unforgettable birthday journey awaits you... ❤️")
 
     if st.button("Start Your Journey 💌"):
@@ -41,7 +41,7 @@ elif st.session_state.step == 1:
 
 # ---------------- STEP 2 (SWEET START) ----------------
 elif st.session_state.step == 2:
-    st.image("sweet_start.png")
+    st.image("birthday journey/sweet_start.png")
     st.write("A sweet start to your day 🍰")
 
     if st.button("Unlock Next Stop 😏"):
@@ -57,7 +57,7 @@ elif st.session_state.step == 3:
 
 # ---------------- STEP 4 (OUTFIT STOP) ----------------
 elif st.session_state.step == 4:
-    st.image("outfit.png")
+    st.image("birthday journey/outfit.png")
 
     if st.button("Next Surprise 👀"):
         st.session_state.step = 5
@@ -72,7 +72,7 @@ elif st.session_state.step == 5:
 
 # ---------------- STEP 6 (SUSHI STOP) ----------------
 elif st.session_state.step == 6:
-    st.image("sushi.png")
+    st.image("birthday journey/sushi.png")
 
     if st.button("But wait... 😏"):
         st.session_state.step = 7
@@ -87,7 +87,7 @@ elif st.session_state.step == 7:
 
 # ---------------- STEP 8 (DESSERT STOP) ----------------
 elif st.session_state.step == 8:
-    st.image("dessert.png")
+    st.image("birthday journey/dessert.png")
 
     if st.button("Time to spoil you 😌"):
         st.session_state.step = 9
@@ -102,7 +102,7 @@ elif st.session_state.step == 9:
 
 # ---------------- STEP 10 (SHOPPING STOP) ----------------
 elif st.session_state.step == 10:
-    st.image("shopping.png")
+    st.image("birthday journey/shopping.png")
 
     if st.button("Final Stop ❤️"):
         st.session_state.step = 11
@@ -117,7 +117,7 @@ elif st.session_state.step == 11:
 
 # ---------------- STEP 12 (FINAL PAGE) ----------------
 elif st.session_state.step == 12:
-    st.image("final.png")
+    st.image("birthday journey/final.png")
 
     st.title("Happy Birthday My Love ❤️")
     st.write("""
