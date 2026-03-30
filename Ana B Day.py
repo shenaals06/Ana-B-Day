@@ -25,7 +25,7 @@ def check_answer(answer_key, correct_answers, next_step):
 
 # ---------------- STEP 0 (INTRO) ----------------
 if st.session_state.step == 0:
-    st.image("C:/Users/User/Desktop/Shenaal/Shen Personal/Ana 21st/Ana 21st/Intro.png")
+    st.image("Intro.png")
     st.write("An unforgettable birthday journey awaits you... ❤️")
 
     if st.button("Start Your Journey 💌"):
@@ -41,7 +41,7 @@ elif st.session_state.step == 1:
 
 # ---------------- STEP 2 (SWEET START) ----------------
 elif st.session_state.step == 2:
-    st.image("C:/Users/User/Desktop/Shenaal/Shen Personal/Ana 21st/Ana 21st/sweet_start.png")
+    st.image("sweet_start.png")
     st.write("A sweet start to your day 🍰")
 
     if st.button("Unlock Next Stop 😏"):
@@ -57,7 +57,7 @@ elif st.session_state.step == 3:
 
 # ---------------- STEP 4 (OUTFIT STOP) ----------------
 elif st.session_state.step == 4:
-    st.image("C:/Users/User/Desktop/Shenaal/Shen Personal/Ana 21st/Ana 21st/outfit.png")
+    st.image("outfit.png")
 
     if st.button("Next Surprise 👀"):
         st.session_state.step = 5
@@ -72,7 +72,7 @@ elif st.session_state.step == 5:
 
 # ---------------- STEP 6 (SUSHI STOP) ----------------
 elif st.session_state.step == 6:
-    st.image("C:/Users/User/Desktop/Shenaal/Shen Personal/Ana 21st/Ana 21st/sushi.png")
+    st.image("sushi.png")
 
     if st.button("But wait... 😏"):
         st.session_state.step = 7
@@ -87,7 +87,7 @@ elif st.session_state.step == 7:
 
 # ---------------- STEP 8 (DESSERT STOP) ----------------
 elif st.session_state.step == 8:
-    st.image("C:/Users/User/Desktop/Shenaal/Shen Personal/Ana 21st/Ana 21st/dessert.png")
+    st.image("dessert.png")
 
     if st.button("Time to spoil you 😌"):
         st.session_state.step = 9
@@ -102,7 +102,7 @@ elif st.session_state.step == 9:
 
 # ---------------- STEP 10 (SHOPPING STOP) ----------------
 elif st.session_state.step == 10:
-    st.image("C:/Users/User/Desktop/Shenaal/Shen Personal/Ana 21st/Ana 21st/shopping.png")
+    st.image("shopping.png")
 
     if st.button("Final Stop ❤️"):
         st.session_state.step = 11
@@ -117,7 +117,7 @@ elif st.session_state.step == 11:
 
 # ---------------- STEP 12 (FINAL PAGE) ----------------
 elif st.session_state.step == 12:
-    st.image("C:/Users/User/Desktop/Shenaal/Shen Personal/Ana 21st/Ana 21st/final.png")
+    st.image("final.png")
 
     st.title("Happy Birthday My Love ❤️")
     st.write("""
